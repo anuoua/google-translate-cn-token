@@ -1,0 +1,39 @@
+{
+  "name": "google-translate-cn-token",
+  "version": "1.0.1",
+  "description": "generate google translate request token",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register  index.spec.js",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuoua/google-translate-cn-token.git"
+  },
+  "keywords": [
+    "google",
+    "translate",
+    "token",
+    "china"
+  ],
+  "author": "anuoua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anuoua/google-translate-cn-token/issues"
+  },
+  "homepage": "https://github.com/anuoua/google-translate-cn-token#readme",
+  "dependencies": {
+    "configstore": "^3.0.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
