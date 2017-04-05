@@ -91,8 +91,8 @@ function updateTKK(cncom = 'com') {
                 if (code) {
                     eval(`temp.${code[0]}`);
                     if (typeof temp.TKK !== 'undefined') {
-                        window.TKK = TKK;
-                        config.set('TKK', TKK);
+                        window.TKK = temp.TKK;
+                        config.set('TKK', temp.TKK);
                     }
                 }
 
